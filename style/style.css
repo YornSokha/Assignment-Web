@@ -1,38 +1,46 @@
-
-h1,h2,h3,h4{
-    /* background-color: darkslategrey; */
-    /* font-family: "AKbalthom KhmerLight"; */
-    font-family: "Ang Tasom";
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css?family=Kantumruy&display=swap');
+body,
+p {
+    font-family: 'Kantumruy', sans-serif;
 }
 
-.slide-title{
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    font-family: 'Kantumruy', sans-serif;
+}
+
+.slide-title {
     font-family: "AKbalthom KhmerLight";
 }
 
-.text-gray{
+.text-gray {
     color: #888;
     font-weight: bolder;
 }
 
-.thump:hover{
-    transform: scale(1.1,1.1);
+.thump:hover {
+    transform: scale(1.1, 1.1);
     transition: 1s ease;
 }
+
 .caption {
-    display: block; /* or inline-block */
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  overflow: hidden;
-  max-height: 5.5em;
-  line-height: 1.8em;
- }
+    display: block;
+    /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 5.5em;
+    line-height: 1.8em;
+}
 
- .display-5{
+.display-5 {
     font-size: 2.5rem;
- }
+}
 
- .carousel-caption {
+.carousel-caption {
     position: absolute;
     right: 15%;
     bottom: 20px;
@@ -44,25 +52,24 @@ h1,h2,h3,h4{
     text-align: start;
 }
 
-
- .card-img-top {
+.card-img-top {
     width: 100%;
-    /* height: 130px; */
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
 }
 
-.mt-10{
+.mt-10 {
     margin-top: 100px;
 }
+
 .card .card-body .card-text {
     color: #747373;
     font-size: 1.1rem;
     font-weight: 400;
 }
 
-body{
-    background-color:#f8f9fa;
+body {
+    background-color: #f8f9fa;
 }
 
 .navbar.scrolling-navbar.top-nav-collapse {
@@ -71,28 +78,30 @@ body{
     background-color: black;
 }
 
-.custome-card-header{
+.custome-card-header {
     padding-left: 35px;
     font-size: 30px;
     color: rgb(235, 72, 108);
 }
-.background-header{
+
+.background-header {
     background-image: url(http://res.cloudinary.com/camsolution/image/upload/cover.png);
     background-size: cover;
     position: relative;
 }
 
-.home-page{
+.home-page {
     font-family: 'Khmer OS Niroth', Times, serif;
     font-size: 25px;
 }
 
-p, a, span{
-    font-family: "AKbalthom KhmerLight";
+p,
+a,
+span {
     font-size: 19px;
 }
 
-.container-fluid{
+.container-fluid {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
@@ -101,56 +110,61 @@ p, a, span{
 }
 
 .welcome-text {
-	text-transform: uppercase;
-	background: linear-gradient(to right, #3154A2 0%, #e1e1e1 100%);
-	-webkit-background-clip: text;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #3154A2 0%, #e1e1e1 100%);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-font-smoothing: antialiased;
-    /* text-shadow:
-    3px 3px 0 #000,
-  -1px -1px 0 #000,  
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-    1px 1px 0 #000; */
-    };
-    
-.custome-padding{
+}
+
+;
+.custome-padding {
     padding: 0rem 2rem;
 }
 
-.responsive-img{
+.responsive-img {
     width: 100%;
     height: auto;
 }
 
-.section-title{
+.section-title {
     color: #f4c736!important;
     text-transform: uppercase;
     font-weight: bolder;
 }
 
-.bio{
+.bio {
     text-align: justify;
 }
 
-.border-right{
+.border-right {
     border-right: 1px solid rgb(109, 104, 104);
     height: 95%;
 }
 
-.display-6{
-    text-align:justify;
+.display-6 {
+    text-align: justify;
     font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.custome-footer-color{
+.custome-footer-color {
     background-color: #45526e!important;
     color: white;
 }
 
-.bg-custom{
+.bg-custom {
     background-color: #45526e!important;
 }
 
-#dog{display:none;}
+#dog {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 57px !important;
+    -webkit-box-shadow: inset 0 0 6px rgb(25, 205, 405)!important;
+}
